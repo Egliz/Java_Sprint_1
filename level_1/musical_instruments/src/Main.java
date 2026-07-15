@@ -1,5 +1,8 @@
 void main(String[] args) {
 
+
+    System.out.println(Instrument.color);
+
     Instrument flute = new WindInstrument("Flute", 20);
     flute.play();
 
@@ -8,8 +11,6 @@ void main(String[] args) {
 
     Instrument maraca = new PercussionInstrument("Maraca", 40);
     maraca.play();
-
-    //Instrument.name();
 
 
 
