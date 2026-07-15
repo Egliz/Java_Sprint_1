@@ -9,7 +9,6 @@ abstract class Instrument {
         this.price = price;
     }
 
-    abstract void play() {
-        System.out.println("An instrument is playing.");
+    abstract void play(); {
     }
 }
