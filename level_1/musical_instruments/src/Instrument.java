@@ -2,7 +2,7 @@ abstract class Instrument {
 
     private String name;
     private int price;
-    public static String color = "brown";
+    public static String colorDemoLoadClass = "brown";
 
     static {
         System.out.println("Instrument class loaded.");
@@ -14,6 +14,5 @@ abstract class Instrument {
         this.price = price;
     }
 
-    abstract void play(); {
-    }
+    abstract void play();
 }

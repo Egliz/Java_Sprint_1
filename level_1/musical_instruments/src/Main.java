@@ -1,9 +1,9 @@
 void main(String[] args) {
 
 
-    System.out.println(Instrument.color);
+    System.out.println(Instrument.colorDemoLoadClass);
 
-    Instrument flute = new WindInstrument("Flute", 20);
+    Instrument flute = new WindInstrument ("Flute", 20);
     flute.play();
 
     Instrument violin = new StringInstrument("Violin", 30);
