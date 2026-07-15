@@ -9,6 +9,8 @@ void main(String[] args) {
     Instrument maraca = new PercussionInstrument("Maraca", 40);
     maraca.play();
 
+    //Instrument.name();
+
 
 
 
