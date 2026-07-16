@@ -9,7 +9,11 @@ public class Car {
     }
 
     static void brake() {
-        System.out.println("The vehicle is braking");
+        System.out.println("The vehicle is braking.");
+    }
+
+    public void accelerate() {
+        System.out.println("The vehicle is accelerating.");
     }
 
     }
