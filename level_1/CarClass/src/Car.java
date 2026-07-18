@@ -1,8 +1,8 @@
 public class Car {
 
-    private static final String brand = "Fiat";
-    private static String model = "yhd22";
-    private final int power;
+    public static final String brand = "Fiat";
+    public static String model = "CDE456";
+    public final int power;
 
     public Car (int power) {
         this.power = power;
