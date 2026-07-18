@@ -1,15 +1,14 @@
 public class Car {
 
-    private ??static final String brand "yhd22";
-    public static String model = "Fiat";
-    private final String power;
+    private static final String brand = "Fiat";
+    private static String model = "yhd22";
+    private final int power;
 
-    public car (String power) {
+    public Car (int power) {
         this.power = power;
-
     }
 
-    static void brake() {
+   public static void brake() {
         System.out.println("The vehicle is braking.");
     }
 
