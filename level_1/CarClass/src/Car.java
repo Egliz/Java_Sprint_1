@@ -1,10 +1,11 @@
 public class Car {
 
-    static final String brand;
-    static String model;
-    final boolean power;
+    private ??static final String brand "yhd22";
+    public static String model = "Fiat";
+    private final String power;
 
-    public car () {
+    public car (String power) {
+        this.power = power;
 
     }
 
@@ -17,4 +18,3 @@ public class Car {
     }
 
     }
-}
