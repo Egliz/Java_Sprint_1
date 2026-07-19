@@ -10,7 +10,7 @@ public class Phone {
     }
 
     //implementar verificacion que sea un numero
-    public void call (String phoneNumber) {
+    public void call (int phoneNumber) {
         System.out.println("Calling " + phoneNumber + "...");
     }
 }
