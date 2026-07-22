@@ -9,4 +9,7 @@ import java.util.ArrayList;
             products = new ArrayList<Product>();
         }
 
+        public double calculateTotal() {
+
+        }
     }
