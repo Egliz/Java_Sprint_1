@@ -9,8 +9,13 @@ import java.util.ArrayList;
             products = new ArrayList<Product>();
         }
 
-        public double calculateTotal() {
+        public void addProduct(Product product){
+            products.add(product);
+        }
+
+        public double calculateTotal() throws EmptySaleException {
             int i = 0;
+            totalPrice = 0;
             if(products.size() == 0)
                 throw new EmptySaleException("To make a sale, you first have to add products.");
             else {
@@ -20,8 +25,5 @@ import java.util.ArrayList;
                 }
                 return totalPrice;
             }
-        }
-        public void addProduct(Product product){
-            products.add(product);
         }
     }
