@@ -21,5 +21,6 @@ import java.util.ArrayList;
                 return totalPrice;
             }
         }
+        public void addProduct(Product product){
         }
     }
