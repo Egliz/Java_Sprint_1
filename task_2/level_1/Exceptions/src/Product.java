@@ -8,4 +8,8 @@ public class Product {
         this.price = price;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
 }

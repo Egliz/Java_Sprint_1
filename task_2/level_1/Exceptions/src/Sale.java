@@ -10,6 +10,16 @@ import java.util.ArrayList;
         }
 
         public double calculateTotal() {
-
+            int i = 0;
+            if(products.size() == 0)
+                throw new EmptySaleException("To make a sale, you first have to add products.");
+            else {
+                while(i < products.size()) {
+                    totalPrice = products.get(i).getPrice() + totalPrice;
+                    i++;
+                }
+                return totalPrice;
+            }
+        }
         }
     }
