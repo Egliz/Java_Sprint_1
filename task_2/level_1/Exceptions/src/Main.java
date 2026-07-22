@@ -13,16 +13,11 @@ public class Main {
 
         try {
             sale1.products.get(2);
-        } catch (Exception IndexOutOfBoundsExceptionn ) {
+        } catch (IndexOutOfBoundsException e) {
             System.out.println("Exception in thread \"main\" java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2\n" +
                     "\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)\n" +
                     "\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)\n" +
                     "\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)");
         }
-
-
-
-
-
     }
 }

@@ -10,7 +10,8 @@ import java.util.ArrayList;
         }
 
         public void addProduct(Product product){
-            products.add(product);
+            products.add(product
+            );
         }
 
         public double calculateTotal() throws EmptySaleException {
@@ -25,5 +26,8 @@ import java.util.ArrayList;
                 }
                 return totalPrice;
             }
+
+
         }
+
     }
