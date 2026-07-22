@@ -22,5 +22,6 @@ import java.util.ArrayList;
             }
         }
         public void addProduct(Product product){
+            products.add(product);
         }
     }
