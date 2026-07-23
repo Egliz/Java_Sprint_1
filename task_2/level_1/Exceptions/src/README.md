@@ -1,8 +1,6 @@
-
-Readme:
 # Exceptions
   
-**Descripción**: En este ejercicio tenemos que comprobar el estado de una lista; si esta lista no tiene productos, lanzamos una excepción personalizada.  
+En este ejercicio tenemos que comprobar el estado de una lista; si esta lista no tiene productos, lanzamos una excepción personalizada.  
 
 ## ✨ Funcionalidades:
 El programa puede crear productos.
@@ -35,6 +33,7 @@ En el bloque de 'try' definimos qué queremos que ocurra; si ocurre un error, se
 
 
 Las 'Checked Exceptions' son errores que el compilador obliga a manejar de manera obligatoria; es como si el compilador dijera necesito saber qué pasará con esto si ocurre un error, entonces es cuando se usa 'try-catch'.
+
 
 Las 'Unchecked Exceptions' son errores que ocurren en la ejecución del programa. Forman parte de la clase 'RuntimeException'.
 
