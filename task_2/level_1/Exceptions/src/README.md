@@ -32,7 +32,7 @@ Dentro del código, se invoca la excepción con 'throw new'.
 En el bloque de 'try' definimos qué queremos que ocurra; si ocurre un error, se captura ejecutando el bloque catch.
 
 
-Las 'Checked Exceptions' son errores que el compilador obliga a manejar de manera obligatoria; es como si el compilador dijera necesito saber qué pasará con esto si ocurre un error, entonces es cuando se usa 'try-catch'.
+Las 'Checked Exceptions' son errores que el compilador obliga a manejar de manera obligatoria; es como si el compilador dijera 'necesito saber qué pasará con esto si ocurre un error', entonces es cuando se usa 'try-catch'.
 
 
 Las 'Unchecked Exceptions' son errores que ocurren en la ejecución del programa. Forman parte de la clase 'RuntimeException'.
